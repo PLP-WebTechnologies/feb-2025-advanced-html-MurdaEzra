@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Murda Tech Industries</title>
+</head>
+<body>
+    <h1 style="color: brown; font-weight: bolder;">Welcome to our Multimedia-Rich Webpage</h1>
+
+    <!-- Embedded Image -->
+    <h2>Sample Image</h2>
+    <img src="Outlayer.jpg" alt="Company Outlook" width="500">
+
+    <!-- Embedded Audio -->
+    <h2>Sample Audio</h2>
+    <audio controls>
+        <source src="Audio Sample.mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+    </audio>
+
+    <!-- Embedded Video -->
+    <h2>Sample Video</h2>
+    <video width="500" controls>
+        <source src="Video Sample.mp4" type="video/mp4">
+        Your browser does not support the video element.
+    </video>
+
+    <!-- Registration Form with Validation Attributes -->
+    <h2>Registration Form</h2>
+    <form>
+        <!-- Name Field -->
+        <label for="fname">First Name:</label><br>
+        <input type="text" id="fname" name="fname" placeholder="Enter your first name" required><br><br>
+        
+        <label for="lname">Last Name:</label><br><br>
+        <input type="text" id="lname" name="lname" placeholder="Enter your last name" required><br><br>
+        
+        <!-- Email Field -->
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email" placeholder="Enter your email" required><br><br>
+                
+        <!-- Password Field -->
+        <label for="password">Password:</label><br>
+        <input type="password" id="password" name="password" placeholder="Enter your password" required minlength="8"><br><br>
+        
+        <!-- Date Field -->
+        <label for="dob">Date of Birth:</label><br>
+        <input type="date" id="dob" name="dob" required><br><br>
+        
+        <!-- Dropdown Field -->
+        <label for="country">Country:</label><br>
+        <select id="country" name="country" required>
+            <option value="">Select your country</option>
+            <option value="kenya">Kenya</option>
+            <option value="uganda">Uganda</option>
+            <option value="tanzania">Tanzania</option>
+        </select><br><br>
+        
+        <!-- Radio Buttons -->
+        <label>Gender:</label><br>
+        <input type="radio" id="male" name="gender" value="male" required>
+        <label for="male">Male</label><br>
+        <input type="radio" id="female" name="gender" value="female" required>
+        <label for="female">Female</label><br><br>
+        
+        <!-- Checkboxes -->
+        <label>Interests:</label><br>
+        <input type="checkbox" id="music" name="interests" value="music">
+        <label for="music">Music</label><br>
+        <input type="checkbox" id="sports" name="interests" value="sports">
+        <label for="sports">Sports</label><br>
+        <input type="checkbox" id="reading" name="interests" value="reading">
+        <label for="reading">Reading</label><br><br>
+        
+        <!-- Submit Button -->
+        <input type="submit" value="Register">
+    </form>
+
+    <!-- Embedded Table -->
+    <h2>Embedded Table</h2>
+    <table border="1">
+        <tr>
+            <th>Name</th>
+            <th>Age</th>
+            <th>City</th>
+        </tr>
+        <tr>
+            <td>Emma Linda</td>
+            <td>20</td>
+            <td>Nairobi</td>
+        </tr>
+        <tr>
+            <td>Morgan Munene</td>
+            <td>21</td>
+            <td>Mombasa</td>
+        </tr>
+    </table>
+
+    <!-- List -->
+    <h2>List</h2>
+    <h3>Ordered List</h3>
+    <ol>
+        <li>Flute</li>
+        <li>Violin</li>
+        <li>Keyboard</li>
+    </ol>
+    <h3>Unordered List</h3>
+    <ul>
+        <li>Laptop</li>
+        <li>Headphones</li>
+        <li>DJ Box</li>
+    </ul>
+
+    <style>
+        h1, h2, h3 {
+            font-weight: 500;
+            font-style: italic;
+            color: aqua;
+            text-align: center;
+        }
+        div {
+            padding: 50px;
+            margin: 20px;
+            align-content: center;
+        }
+    </style>
+</body>
+</html>
